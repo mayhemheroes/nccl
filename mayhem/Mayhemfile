@@ -1,0 +1,8 @@
+version: '1.13'
+
+project: nccl
+target: fuzz_xml
+
+cmds:
+  - cmd: /fuzz_xml
+    libfuzzer: true
